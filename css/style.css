@@ -1,0 +1,82 @@
+/* html{
+   font-size: 62.5%;
+}
+ */
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1rem;
+}
+
+#navbar-ul {
+    width: 100%;
+    justify-content: center;
+}
+
+#navbar-ul > li > a {
+    color: #fff;
+     font-weight: 2em;
+}
+
+section {
+    padding-bottom: 2.5rem !important;
+    padding-top: 2.5rem !important;
+}
+
+
+.section-container {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#services .card {
+   margin: 1rem;
+   min-width: 13rem;
+   max-width: 20rem;
+   min-height: 350px;
+}
+
+.service-icon {
+     font-size: 3rem;
+     color: #754ffe;
+     padding-bottom: 2rem;
+}
+
+ /* .service-desc {
+    padding-top: 1rem;
+ }
+
+ .service-desc > p {
+    font-size: smaller;
+    line-height: normal;
+ } */
+
+ .fundamental-item {
+    --gk-bg-opacity: 1;
+   background-color: rgb(241, 245, 249);
+    min-height: 300px;
+    margin: 0.5rem;
+ }
+
+ .fundamental-item > h6 {
+    text-align: center;
+    margin-bottom: 1.5em;
+ }
+
+ #tools img {
+    width: 100%;
+    padding: 1rem;
+ }
+
+ #tools h5 {
+    text-align: center;
+ }
+
+#projects ol > li {
+   padding-top: 1rem;
+}
+
+#projects ul > li {
+   list-style-type: disc;
+}
